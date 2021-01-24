@@ -28,10 +28,10 @@
         var boughtitems = [];
 
         var tobuyitems = [
-            new item("Яблука", 5),
-            new item("Груші", 6),
-            new item("Сливи", 4),
-            new item("Кавун", 1),
+            new item("Грейфрут", 1),
+            new item("Яблука", 6),
+            new item("Апельсини", 4),
+            new item("Диня", 1),
             new item("Вишні", 3),
             new item("Банани", 7),
             new item("Мандарини", 10)
