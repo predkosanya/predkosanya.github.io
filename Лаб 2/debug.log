@@ -1,0 +1,2 @@
+[0121/195320.989:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0121/200321.000:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

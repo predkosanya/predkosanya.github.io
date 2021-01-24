@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Лабораторна робота 2</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Варіант <span id="variant"></span></h1>
+        <h2>Визначення катета прямокутного трикутника</h2>
+        <p>Введіть довжину катета: 
+        <input type="text" id = "var_a"></p>
+        <p>Введіть довжину гіпотенузу: 
+        <input type="text" id = "var_c"></p>
+        <p class = "buttons">
+            <button id = "calc" onclick="calc_click_katet()">Результат</button>
+        </p>
+        <p>Катет b = <span id = "var_b"></span>  </p>
+
+        <div class ='triangle'></div>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>

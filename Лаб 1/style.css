@@ -1,0 +1,114 @@
+h1{
+    text-align: center;
+}
+
+h2, h3, h4{
+    font-size: 15px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+h2{
+    background-color: pink;
+    border: 1px solid black;
+}
+
+h3{
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+}
+
+h4{
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.row{
+    width: 100%;
+}
+
+@media screen and (min-width: 992px){
+    .col-lg-3{
+        width: 25%;
+        float: left;
+        border: 2px solid black;
+        background-color: grey;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    .col-lg-3 p{
+        margin-top: 12%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .row{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .col-md-6{
+        width: 35%;
+        float: left;
+        border: 2px solid black;
+        background-color: grey;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 5%;
+    }
+
+    .col-md-6 p{
+        margin-top: 17%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .col-md-12{
+        float: left;
+        border: 2px solid black;
+        background-color: #808080;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .col-md-12 p{
+        margin-top: 7%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .col-s-12{
+        width: 90%;
+        float: left;
+        border: 2px solid black;
+        background-color: #808080;
+        margin-left: 3%;
+        margin-right: 5%;
+        margin-bottom: 7%;
+    }
+
+    .col-s-12 p{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 10%;
+    }
+
+    h2, h3, h4{
+        font-size: 15px;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
