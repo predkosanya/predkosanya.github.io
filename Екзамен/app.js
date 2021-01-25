@@ -28,19 +28,14 @@
         var boughtitems = [];
 
         var tobuyitems = [
-            new item("Грейфрут", 1),
-            new item("Яблука", 6),
-            new item("Апельсини", 4),
-            new item("Диня", 1),
-            new item("Вишні", 3),
-            new item("Банани", 7),
-            new item("Мандарини", 10)
+            new item("Конструктор", 1),
+            new item("Пазли", 6),
+            new item("Іграшковий пістолет", 4),
+            new item("Пожежна машина", 1),
+            new item("Ведмедик", 3)          
         ];
+        
 
-        service.addboughtitem = function (shopItemId) {
-            boughtitems.push(tobuyitems[shopItemId]);
-            tobuyitems.splice(shopItemId, 1);
-        };
 
         service.gettobuyitems = function () {
             return tobuyitems;
@@ -50,6 +45,7 @@
             return boughtitems;
         };
     };
+
 
     class item {
         constructor(name, amount) {
